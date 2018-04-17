@@ -1,6 +1,7 @@
 *{
 	 margin:0;
 	 padding:0;
+	 font-family:Arial,Helvetica, sans-serif;
 	}
 header,nav,main,section,footer{display:block;}
 
@@ -47,6 +48,7 @@ footer{
 	text-decoration:none;
 	font-family:Arial,Helvetica, sans-serif;
 	color:#264951;
+	margin-left:10px; 
 
 }
 
@@ -55,9 +57,8 @@ footer{
 	
 }
 
-
 .aboutMe{
-	background-image:url(../images/cover.jpg);
+	background-image:url(../images/cover.png);
 	height:800px;
 	weight:1600px;
 	text-align:center;
@@ -67,7 +68,7 @@ footer{
 	display:inline-block;
 	font-family:Arial, Helvetica, sans-serif;
 	color:#ffffff;
-	font-size:46px;
+	font-size:50px;
 	margin-top: 241px;
 	 /* margin-left:500px;   */
 	margin-bottom:39px;
@@ -82,8 +83,9 @@ footer{
 }*/
 
 .aboutMe p{
-	font-size:20px;
+	font-size:22px;
 	color:#ffffff;
+	font-family:Arial, Helvetica, sans-serif;
 	/* margin-left:565px; */
 	/*margin-right:280px;*/
 	/* padding-top:38px; /*למה כשעושה margin לא נוצר רווח?*/ 
@@ -95,7 +97,10 @@ footer{
 	text-decoration:none;
 	color:#ffffff;
 	border:1px solid #15a3f9;
-	 margin-bottom:281px; 
+	border-radius:10px;
+	font-size:18px;
+	font-family:Arial, Helvetica, sans-serif;
+	/* margin-bottom:281px;  */
 	 /* margin-left:711px;  */
 	padding-left:19px;
 	padding-top:21px;
@@ -113,7 +118,9 @@ footer{
 .me_hebrew h2 {
 	
 	color:#2d3950;
-	margin-top:83px;
+	font-size:25px;
+	/* margin-top:83px; */
+	padding-top:83px;
 	/* margin-left:528px; */ /**/
 	margin-bottom:37px;
 }
@@ -129,7 +136,8 @@ footer{
 }
 
 .skills h2 {
-	font-size:22px;
+	font-size:25px;
+	color:#2d3950;
 	font-family:Arial, Helvetica, sans-serif;
 	margin-top:78px;
 	/* margin-left:515px;  */ /**/
@@ -180,11 +188,12 @@ footer{
 }
 
 .social img{
-	 vertical-align: middle; 
+	vertical-align: middle; 
 } 
 .social h6 {
 	display:inline;
-	margin-bottom:38px;
-	margin-top:40px;
+	color:#c4c6c6;
+	margin-bottom:38px; 
+	margin-top:40px; 
 }
 
